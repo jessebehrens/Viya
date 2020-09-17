@@ -18,4 +18,6 @@ SaveCompressed.sas - Save in-memory table stored in a CASLIB back to disk as a <
 <li>
 ParallelLoadandCompressData.sas - Parallel loads a file from a file location (path, database, etc.) to a CASLIB.  The data is compressed as it is loaded.
 </li>
+<li>
+ConvertChartoVarchar.sas - Load a table into memory from disk and convert all char variables of a certain length (and longer) to a varchar with an equivalant length.
 </ul>
