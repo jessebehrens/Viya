@@ -13,6 +13,9 @@ This repository contains code and examples of using <a href='https://documentati
 Formats.sas - Formats have to be available to the CAS engine.  If they are not, SAS will send the data back to the SAS9 engine to apply formats, killing any processing gains made with the CAS engine.  This script demonstrates how to load, create, move, and persist formats into CAS.
 </li>
 <li>
-SaveCompressed.sas - Save in-memor stored in a CASLIB back to disk as a <b>compressed</b> sas7bdat on disk
+SaveCompressed.sas - Save in-memory table stored in a CASLIB back to disk as a <b>compressed</b> sas7bdat on disk
+</li>
+<li>
+ParallelLoadandCompressData.sas - Parallel loads a file from a file location (path, database, etc.) to a CASLIB.  The data is compressed as it is loaded.
 </li>
 </ul>
