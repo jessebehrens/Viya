@@ -10,6 +10,9 @@ This repository contains code and examples of using <a href='https://documentati
        
 </li>
 <li>
+FedSQLReservedWords.sas - <a href='https://go.documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=casfedsql&docsetTarget=titlepage.htm&locale=en'>Proc FedSQL</a> is used for executing structured query language against CAS tables.  FedSQL has quite a few <a href='https://go.documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=casfedsql&docsetTarget=p1gp2oyo2wxjmun1a9de92k57d91.htm&locale=en'>reserved words</a> that cannot be used in open code.  Therefore, reserved words need to be escaped by placing them in double quotes.  In the case of macros that require double quotes to resolve, use the <a href='https://go.documentation.sas.com/?docsetId=lebaseutilref&docsetTarget=n1phgnraoodvpln1bm941n44yq7q.htm&docsetVersion=9.4&locale=en'>%tslit</a> macro instead of double quotes.
+</li>
+<li>
 Formats.sas - Formats have to be available to the CAS engine.  If they are not, SAS will send the data back to the SAS9 engine to apply formats, killing any processing gains made with the CAS engine.  This script demonstrates how to load, create, move, and persist formats into CAS.
 </li>
 <li>
