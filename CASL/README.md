@@ -7,8 +7,6 @@ This repository contains code and examples of using <a href='https://documentati
        <li>The power of PROC CAS to execute SAS actions</li>
        <li>Viya enabled procs, such as regselect, as well as their action counterparts, to run distributed analytics in the CAS engine</li>
     </ul>
-     
-    </li>
 <li>
     <b>FedSQLReservedWords.sas</b> - <a href='https://go.documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=casfedsql&docsetTarget=titlepage.htm&locale=en'>Proc FedSQL</a> is used for executing structured query language against CAS tables.  FedSQL has quite a few <a href='https://go.documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.5&docsetId=casfedsql&docsetTarget=p1gp2oyo2wxjmun1a9de92k57d91.htm&locale=en'>reserved words</a> that cannot be used in open code.  Therefore, reserved words need to be escaped by placing them in double quotes.  In the case of macros that require double quotes to resolve, use the <a href='https://go.documentation.sas.com/?docsetId=lebaseutilref&docsetTarget=n1phgnraoodvpln1bm941n44yq7q.htm&docsetVersion=9.4&locale=en'>%tslit</a> macro instead of double quotes.
 </li>
