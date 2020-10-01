@@ -7,7 +7,7 @@ caslib sasmem path='/Local_Files' datasource=(srctype='path');
 /*Add a workspace libname*/
 libname sasdata '/Local_Files';
 
-/*Display CASLIBs in the right panel of SAS Studio*/
+/*Display CASLIBs in the left panel of SAS Studio*/
 caslib _all_ assign;
 
 /*We have an in-memory table called CARS in the caslib.CARS our goal is to save it back down
