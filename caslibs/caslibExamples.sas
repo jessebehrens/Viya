@@ -22,6 +22,7 @@ caslib snowcas   desc='Snowflake Caslib'
                  schema='schema'
                  authdomain='Authdomain'
                  database="USERS_DB");
+caslib _all_ assign;
 
 /*To list the files in the datasource tied to a CASLIB that live on disk or in a databased, use proc casutil*/
 
